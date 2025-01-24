@@ -51,18 +51,26 @@ a {
     color: #000
 }
 
-    a:hover, a[rel~=nofollow] {
-        text-decoration: underline
-    }
+a:hover, a[rel~=nofollow] {
+    text-decoration: underline
+}
 
-    a[rel~=nofollow] {
-        color: #008461
-    }
+a[rel~=nofollow] {
+    color: #008461
+}
 
-        a[rel~=nofollow]:hover {
-            text-decoration: none
-        }
+a[rel~=nofollow]:hover {
+    text-decoration: none
+}
 
+.easi-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.easi-link:hover {
+    text-decoration: underline;
+}
 .visible {
     display: block
 }
